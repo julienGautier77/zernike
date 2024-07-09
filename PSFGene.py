@@ -1,3 +1,4 @@
+#! /home/zita1/miniforge3/bin/python3.10
 import LightPipes as li
 import matplotlib.pyplot as plt
 import math
