@@ -65,7 +65,8 @@ data = DataPreparation(root_dir='data2')
 dataLoader = DataLoader(data,batch_size=4,shuffle=True,num_workers=0)
 x_train=[]
 y_train=[]
-for i in range (0,10000):
+for i in range (0,10000
+                ):
 
     x_train.append([data[i]['image']])
     y_train.append([data[i]['labels']])
